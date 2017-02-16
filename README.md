@@ -1,6 +1,4 @@
 
-#hello-world
+#GoIT web site
 
-first try
-
-Hello every one! This is my first try at the github working. And I like it :)
+This is the website made by me based on GoIT courses
