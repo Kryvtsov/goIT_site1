@@ -1,0 +1,610 @@
+body {
+    width: 100%;
+    max-width: 1400px;
+    min-width: 400px;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background: #fff;
+}
+section {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* -----------Navigation menu-------------*/
+
+nav {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    width: 1024px;
+    height:116px;
+    position: relative;
+    margin: 0 auto;
+}
+.company_name {
+    font-size: 36px;
+    color: rgb(238, 129, 41);
+    text-align: left;
+    float: left;
+}
+.company_name span {
+    color: #3070a8;
+}
+.navigation {
+    float: right;
+    position: relative;
+    padding: 0;
+    margin: 0;
+
+}
+.navigation li{
+    display: inline-block;
+    padding-top: 54px;
+    padding-bottom: 40px;
+    width:76px;
+    text-align: center;
+    margin-left: 14px;
+}
+
+.navigation li a {
+    font-size: 14px;
+    line-height: 1.571;
+    text-transform: uppercase;
+    color: #989898;
+    text-decoration: none;
+}
+.navigation li:hover {
+    border-bottom: 4px solid rgb(48, 112, 168);
+    cursor: pointer;
+    padding-bottom: 36px;
+}
+.navigation li:hover a {
+    color: rgb(48, 112, 168);
+}
+
+/* -----------main content-------------*/
+
+
+/* -----------banner-------------*/
+
+.banner {
+    background: url("../img/Layer 93.png") center no-repeat;
+    height: 585px;
+    position: relative;
+    margin: 0;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.banner_content {
+    margin-top: 152px;
+}
+.banner_specialist {
+    font-size: 36px;
+    color: white;
+    line-height: 1.2;
+}
+.banner_specialist span {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.banner_text {
+    font-size: 20px;
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-style: italic;
+    margin-bottom:44px;
+}
+.banner_button {
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgba(238, 129, 41, 0.1);
+    opacity: 0.5;
+    width: 249px;
+    height: 61px;
+    position: relative;
+}
+.banner_button:hover {
+    width: 246px;
+    height: 58px;
+    top:1px;
+    left:1px;
+    box-shadow: 0 0 20px  rgba(238, 129, 41, 0.4);
+    cursor: pointer;
+    background-color: rgba(238, 129, 41, 0.4);
+}
+.banner_button:focus {
+    outline: none;
+}
+.banner_button:active {
+    top:1px;
+    left:1px;
+}
+
+/* -----------services-------------*/
+.services {
+    background: #fff;
+    height: 564px;
+    position: relative;
+    margin: 0;
+    margin-top: -1px;
+
+    padding: 0;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.services_content {
+    width: 1024px;
+    margin: 0 auto;
+}
+h3.services_content_head {
+    font-size: 30px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(65, 82, 92);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.833;
+    text-align: center;
+    margin-top:68px;
+    margin-bottom:80px;
+}
+.protect, .alert, .detect {
+    float:left;
+    width:306px;
+    margin-right: 52px;
+    padding: 0;
+}
+.detect {
+    margin-right: 0;
+}
+.services_content_pad_head {
+    font-size: 30px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgb(48, 112, 168);
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-bottom:28px;
+}
+.services_content_pad_text {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(153, 153, 153);
+    line-height: 1.786;
+    text-align: center;
+    width: 304px;
+    height: 111px;
+}
+
+/* -----------middle-------------*/
+.middle {
+    background: url("../img/middle.png") center no-repeat;
+    height: 580px;
+    position: relative;
+    margin: 0;
+    margin-top: -1px;
+    padding: 0;
+    text-align: left;
+    border: 1px solid transparent;
+}
+.middle_content {
+    width: 1024px;
+    margin: 0 auto;
+}
+.middle_content_head {
+    font-size: 26px;
+    font-family: 'FuturaBT Book', Arial, sans-serif;
+    color: rgb(238, 129, 41);
+    text-transform: uppercase;
+    line-height: 1.8;
+    text-align: left;
+    padding: 0;
+    margin: 90px 0 24px;
+}
+.middle_content_top {
+    font-size: 19px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    line-height: 1.579;
+    text-align: left;
+    margin-bottom:40px;
+}
+.middle_content_head_marks {
+    width: 650px;
+    padding: 0;
+}
+.middle_content_head_marks li {
+    list-style-image: url("../img/Ellipse1.png");
+    margin: 0 0 32px 35px;
+    padding-left: 14px;
+}
+.middle_content_head_marks li:hover {
+    list-style-image: url("../img/Ellipse2.png");
+}
+.middle_content_head_marks li a{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(157, 157, 157);
+    text-align: left;
+    text-decoration: none;
+}
+.middle_content_head_marks li:hover a {
+    color: rgb(48, 112, 168);
+}
+
+/* -----------offers-------------*/
+.offers {
+    height: 706px;
+    position: relative;
+    margin: 0;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    border: 1px solid transparent;
+}
+h2.offer {
+    font-size: 30px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(65, 82, 92);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.833;
+    text-align: center;
+    margin-bottom: 66px;
+    margin-top: 74px;
+}
+.values {
+    margin: 0 auto;
+    z-index: 1;
+    width: 888px;
+
+}
+
+.value_main {
+    width: 296px;
+    border: 4px solid rgb(238, 129, 41);
+    box-shadow: 0 0 13px 0 rgba(8, 116, 178, .4);
+    height: 452px;
+    border-radius: 5px;
+    padding: 0;
+    /*display: inline-block;*/
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.value_main h3  {
+    font-size: 24px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.833;
+    text-align: center;
+    width: 100%;
+    background: rgb(238, 129, 41);
+    margin: 0 auto;
+}
+.value_main h3 ~ p {
+    font-size: 24px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: black;
+    text-transform: uppercase;
+    line-height: 2.833;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.price p {
+    font-size: 72px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(53, 73, 90);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.833;
+    text-align: center;
+    margin:0 auto;
+}
+.price p span {
+    font-size: 22px;
+    vertical-align: top;
+}
+.price p span:last-child {
+    font-size: 18px;
+    vertical-align: bottom;
+    text-transform: capitalize;
+}
+.bonuses {
+    margin: 30px auto 18px;
+    width: 259px;
+}
+.bonuses ul {
+    list-style: none;
+    padding: 0;
+
+}
+.bonuses ul li {
+    height: 24px;
+    font-size: 15px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(136, 140, 148);
+    line-height: 1.2;
+    margin-bottom: 2px;
+    vertical-align: middle;
+    padding-top: 9px;
+
+}
+.bonuses ul li:nth-child(2n+1) {
+    background-color: rgb(237, 245, 253);
+}
+.bonuses ul li:nth-child(2n) {
+    background-color: rgb(245, 245, 246);
+}
+
+.bonuses ul li:before {
+    content: url("../img/Shape 4.png");
+    margin-right: 16px;
+    margin-left: 30px;
+
+    /*background-image: url(-.jpg);
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content:"";*/
+}
+.enroll {
+    font-size: 14px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.143;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(238, 129, 41);
+    border: 1px solid rgb(238, 129, 41);
+    box-shadow: 0 3px 0 0 rgba(179, 86, 11, 1);
+    width: 253px;
+    height: 38px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.value_main.standard , .value_main.ultimate {
+    position: relative;
+    border-width: 1px;
+    border-color: rgb(232, 234, 236);
+    height: 442px;
+    z-index: 1;
+    box-shadow: -2px 1px 0 0 rgba(227, 225, 225, 0.4);
+    border-radius: 5px;
+    top:15px;
+}
+.value_main.best {
+    position: relative;
+    margin-left: -4px;
+    margin-right: -4px;
+    height: 468px;
+    width: 296px;
+    z-index: 2;
+
+}
+
+.value_main.standard h3 {
+    background: rgb(55, 194, 211);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.ultimate h3 {
+    background: rgb(28, 183, 154);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.value_main.best h3 {
+    padding-top: 12px;
+}
+.value_main.standard .enroll, .value_main.ultimate .enroll{
+    background-color: rgb(51, 113, 166);
+    border: 1px solid rgb(22, 67, 106);
+    box-shadow: 0 3px 0 0 rgba(22, 67, 106, 1);
+}
+
+button.enroll:hover {
+    top:3px;
+    left:3px;
+    box-shadow: none;
+    cursor: pointer;
+}
+button.enroll:focus {
+    outline: none;
+}
+button.enroll:active {
+
+    top:2px;
+    left:2px;
+}
+
+/* -----------comments-------------*/
+
+.comments_main {
+    background: url("../img/bg.png") no-repeat;
+    height: 315px;
+    padding-top: 58px;
+    position: relative;
+    border: 1px solid transparent;
+}
+p.comments_head {
+    font-size: 40px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #3170a8;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin: 0 auto 52px;
+
+
+}
+.comments_head span{
+    color: rgb(238, 129, 41);
+}
+.comments_clients {
+    width: 1022px;
+    margin: 0 auto;
+}
+.comments_comment1, .comments_comment2 {
+    width: 490px;
+}
+.comments_comment1 {
+    float: left;
+}
+.comments_comment2 {
+    float: right;
+}
+.comments_comment1_block, .comments_comment2_block {
+    border: 1px solid rgb(224, 224, 224);
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    width: 332px;
+    float: right;
+    position: relative;
+    padding: 14px;
+}
+.comments_comment1_block::before, .comments_comment2_block::before {
+    content:"";
+    border-style: solid;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent #f7f7f7 transparent transparent;
+    position: absolute;
+    left: -15px;
+    top:38px;
+}
+.name, .Customer {
+    font-size: 13px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(48, 112, 168);
+    font-style: italic;
+}
+.name  {
+    float: left;
+}
+.Customer {
+    float: right;
+}
+.clearfix {
+    clear: both;
+}
+.comments_comment1_block p, .comments_comment2_block p {
+    margin: 0;
+    margin-top: 10px;
+    border-top: 1px dotted rgb(102, 102, 102);
+    font-size: 13px;
+    line-height: 1.538;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(102, 102, 102);
+    text-align: left;
+    width: 310px;
+    padding-top: 6px;
+    padding-right: 22px;
+}
+.comments_comment1 img, .comments_comment2 img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* -----------footer-------------*/
+
+footer {
+    display: block;
+    height: 450px;
+    position: relative;
+    border: 1px solid transparent;
+    margin-top: -80px;
+}
+.contacts {
+    height: 346px;
+    float: left;
+    width: 50%;
+}
+.contacts_adress {
+    margin-left: 190px;
+    padding: 0;
+}
+.contacts_adress li{
+    font-size: 14px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgb(102, 102, 102);
+    line-height: 2.571;
+    list-style: none;
+    padding-left: 60px;
+
+}
+.contacts_adress li:first-child {
+    background: url("../img/gps.png") 2px 4px no-repeat;
+
+}
+.contacts_adress li:last-child {
+    background: url("../img/mail.png") 0 10px no-repeat;
+}
+.contacts_adress li:nth-child(5) {
+    background: url("../img/mob.png") 1px 4px no-repeat;
+}
+.map {
+    float: right;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.map iframe {
+    position: absolute;
+    right: 0;
+
+    width: 100%;
+
+}
+.contacts_social {
+    margin-left: 190px;
+    padding: 0;
+    margin-top: 34px;
+}
+.contacts_social li{
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.copyright {
+    background: #3070a8;
+    text-align: center;
+    height: 104px;
+    padding-top: 28px;
+}
+.copyright p {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 2.143;
+    text-align: center;
+}
+.copyright p a {
+    color: #1d1c1c;
+    font-weight: bold;
+    text-decoration: none;
+}
